@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Open Sans', Bold;
+}
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/cmi_por.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/cmi_por.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 2px 0;
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/* Barra de navegación*/
+
+.logo-contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.logo-contenido a{
+    
+    text-decoration: none;
+    color: white;
+}
+.navegacion{
+    text-align: right;
+    padding: 30px 50px 30px 30px;
+
+}
+
+.navegacion ul{
+    list-style: none;
+}
+.menu >li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu >li >a{
+    display: block;
+    padding: 30px 20px;
+    color: rgb(253, 252, 252);
+    font-family: 'Open Sans', sans-serif;
+      text-decoration: none;
+      font-size: large;
+      
+}
+
+.menu li a:hover{
+    color: rgb(1, 0, 39);
+    transition: all .5s;
+}
+
+.submenu{
+    text-align: left;
+    position: absolute; 
+    width: 200%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(253, 252, 252);
+    font-family: 'Open Sans', sans-serif; 
+    font-size: large;   
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Adaptacion*/
+@media screen and (max-width:750px){
+    header{
+        background-position:center;
+    }
+    
+    
+}
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+/* Sobre nosotros*/
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-sobre-nosotros{
+    width: 48%;
+}
+
+.sobre-nosotros .contenido-de-textos{
+    width: 48%;
+}
+
+.contenido-de-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-de-textos h3 span{
+    background: rgb(253, 115, 2);
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.contenido-de-textos p{
+    padding: 0px 0px 40px 15px;
+    font-weight: 300;
+    text-align: 300;
+}
+
+

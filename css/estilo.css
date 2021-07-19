@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/cmi_por.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/cmi_por.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}

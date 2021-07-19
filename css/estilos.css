@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+}
+/*contenedor*/
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.container{
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*cabecera*/
+header{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/cmi_por.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/cmi_por.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.cabecera{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/contactores.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/contactores.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.cabecera-plc{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/plc.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/plc.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.cabecera-industrial{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/electricidad-indu.png);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/electricidad-indu.png); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.cabecera-analog{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/electro-analog.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/electro-analog.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.cabecera-dig{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/electronica-dig.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/electronica-dig.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.cabecera-neumatica{
+    width: 100%;
+    height: 600px;
+    background: #43C6AC;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371a2, #f3914fb9), url(../img/neumatica.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b437185, #f3914f91), url(../img/neumatica.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/* Barra de navegación*/
+.logo{
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+}
+.logo:hover{
+    text-decoration: none;
+    color: rgb(2, 3, 54);
+}
+.top-nav-collapse{
+    background-color: #6b6a6ac2 !important;
+}
+.navegacion{
+    padding: 30px 50px 30px 30px;
+
+}
+
+
+
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+   
+}
+.lis > ul li{
+    list-style-type: upper-alpha;
+}
+
+.menu > li >a{
+ 
+    color: rgb(253, 252, 252);
+    font-family: 'Open Sans', sans-serif;
+      text-decoration: none;
+      font-size: large;
+       padding: 0 4px 2px 55px;
+}
+
+.menu li a:hover{
+    color: #c54f00;
+    transition: all .5s;
+}
+
+
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+/* Adaptacion*/
+@media screen and (max-width:885px){
+    header{
+        background-position:center;
+    }
+    .contenedor-sobre-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-nosotros .contenido-de-textos{
+        width: 98%;
+    }
+    
+    .pie-de-pagina{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .final .pie{
+        width: 48%;
+    }
+    
+    .pie h2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        height: 650px;
+    }
+    .li{
+        margin-right: 9px;
+    }
+}
+@media screen and (max-width:675px){  
+    .submenu li a{
+        padding: 20px 0 0 0;
+    }
+
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 60px;
+    color: #0c0c0c;
+}
+
+
+/* Sobre nosotros*/
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.imagen-sobre-nosotros{
+    width: 50%;
+    height: 50%;
+}
+
+.sobre-nosotros .contenido-de-textos{
+    width: 48%;
+}
+
+.contenido-de-textos h3{
+    margin-bottom: 15px;
+    color: #0c0c0c;
+}
+
+.contenido-de-textos h3 span{
+    background: rgb(253, 115, 2);
+    color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    padding: 0px;
+    margin-right: 10px;
+    box-shadow: 0 0 6px 0 rgb(253, 115, 2);
+
+}
+
+.contenido-de-textos p{
+    padding: 0 0 40px 15px;
+    font-weight: 200;
+    text-align: 200;
+    color: #0c0c0c;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: x-large;
+}
+.video > video{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+/*pie de pagina*/
+footer{
+    width: 100%;
+    height: 350px;
+    background: #0c0c0c;  
+    background: #F3904F;  /* fallback for old browsers */
+    background: linear-gradient(to right, #3b4371, #f3914f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3b4371, #f3914f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.final-de-pagina{
+        padding: 50px 0;
+        width: 90%;
+        max-width: 1000px;
+        margin: auto;
+        overflow: hidden;
+}
+
+.pie-de-pagina{
+    display: flex;
+    justify-content: space-evenly;
+    color: #0c0c0c;
+}
+.pie{
+    width: 48%;
+}
+.pie h2{
+    display: inline-block;
+    text-align: left;
+    width: 310px;
+    height: 25px;
+    color: #0c0c0c;
+    padding: 0 5px;
+}
+.pie p{
+    padding: 0 0 5px 5px;
+    font-weight: 200;
+    text-align: 200;
+}
+
+.icon{
+  display: inline-block;
+  padding: 35px 0 0 35px;
+}
+
+.derechos{
+    text-align: center;
+}
+/*temas de cursos*/
+.li{
+    font-size: x-large;
+    padding: 60px 10px;
+    width: 90%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+}
+.li h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+/*.box{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    background: #030303;
+    text-align: center;
+    border-radius: 25px;
+}*/
+.box{
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 1px;
+    background: #030303;
+    padding: 25px 10px ;
+}
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 500;
+
+
+}
+.box p{
+    color: white;
+}
+.box input[type = "text"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #0935E8;
+    padding: 14px 10px;
+    width: 300px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+.box input[type = "text"]:focus, .box input[type = "password"]:focus{
+    width: 280px;
+    border-color: #ff6d0c;
+    
+
+}
+.box button[type = "submit"]{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #21C623;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.box button[type = "submit"]:hover{
+    background: #21C623;
+}
+.box textarea{
+    border: 2px solid #21C623;
+    width: 300px;
+    height: 150px;
+    background: none;
+    color:white;
+}
+.box textarea:hover{
+    border-color:   #0935E8;
+}
+.cont{
+    width: 48%;
+}
